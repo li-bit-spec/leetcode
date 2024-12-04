@@ -76,13 +76,16 @@ class TreeNode {
          if(root == null){
              return new int[]{0,0};
          }
+         // 后序遍历
          int[] left = dfs(root.left);
          int[] right = dfs(root.right);
+
          // 偷当前节点
          int robThisNode = root.val + left[0] + right[0];
 
          // 不偷当前节点
          int skipThisNode = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
+
          return new int[]{skipThisNode, robThisNode};
      }
 
