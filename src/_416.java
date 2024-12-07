@@ -73,7 +73,7 @@ public class _416 {
         }
         Arrays.sort(array);
         // 背包的总容量
-//        int target = sum/2;
+        // int target = sum/2;
         System.out.println(isSum(array, sum));
     }
 }
