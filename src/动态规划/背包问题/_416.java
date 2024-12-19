@@ -1,7 +1,13 @@
-import java.util.ArrayList;
+package 动态规划.背包问题;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * @author 李华宪
+ * @Description 分割等和子集（01 bag）
+ * @create 2024-12-18 16:23
+ */
 public class _416 {
     // 问题可以转换为寻找是否存在总和为 sum/2 的子集
     public static boolean isSum(int[] array, int sum){

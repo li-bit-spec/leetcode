@@ -1,3 +1,5 @@
+package 动态规划.背包问题;
+
 import java.util.*;
 
 /**
@@ -5,7 +7,7 @@ import java.util.*;
  * @project leetcode
  * @package PACKAGE_NAME
  * @date 2024/12/7 09:51
- * @description: 目标和：动态规划
+ * @description: 目标和：01 背包问题
  */
 public class _494 {
 

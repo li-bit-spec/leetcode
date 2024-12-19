@@ -1,8 +1,10 @@
+package 动态规划.背包问题;
+
 import java.util.Scanner;
 
 /**
  * @author 李华宪
- * @Description 完全平方数
+ * @Description 完全平方数（完全背包问题）
  * @create 2024-12-18 18:23
  */
 public class _279 {

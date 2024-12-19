@@ -1,6 +1,13 @@
+package 动态规划.背包问题;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * @author 李华宪
+ * @Description 最后一块石头的重量II （01 bag）
+ * @create 2024-12-18 16:23
+ */
 public class _1049 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

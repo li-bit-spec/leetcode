@@ -1,7 +1,9 @@
+package 动态规划.背包问题;
+
 import java.util.Scanner;
 
 /**
-  *@Description      爬楼梯（卡码网进阶版）
+ *@Description 爬楼梯（卡码网进阶版）完全背包问题
   *@author          李华宪
   *@create          2024-12-18 16:23
   */  
